@@ -62,12 +62,11 @@ nav ul li a{
     font-size: 14px;
     font-weight: 500;
 }
-nav ul li a button{
+nav ul li a .riben{
     position: absolute;
     top: -11px;
     right: 11px;
     color: #F5F5F5;
-    background-color: #83B735;
     border: none;
     cursor: pointer;
     padding: 6px 8px;
@@ -76,6 +75,44 @@ nav ul li a button{
     font-weight: 700;
     text-transform: capitalize;
     outline: none;
+}
+.green-riben{
+    background-color: #83B735;
+}
+.yello-riben{
+    background-color: #FED700;
+}
+.riben div{
+    clip-path: polygon(0 0, 0% 100%, 100% 0);
+    width: 9px;
+    height: 15px;
+    position: absolute;
+    left: 0px;
+    top: 20px;
+}
+
+.shop-icon{
+    display: flex;
+    align-items: center;
+    gap:15px;
+
+
+}
+.shop-icon span{
+    font-size: 35px;
+}
+.bag-icon{
+    position: relative;
+}
+.shop-icon .bage{
+    border: 0;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
 }
 
 
