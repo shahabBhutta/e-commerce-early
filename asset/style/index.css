@@ -118,3 +118,140 @@ nav ul li a .riben{
 
 /* nav end */
 
+
+/* search-box  start*/
+
+.search-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 150px;
+}
+
+.left-btn {
+    display: flex;
+}
+.left-btn .left-btn-categori {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 371px;
+	padding: 24px;
+	background-color: #FED700;
+	border: none;
+	color: #F5F5F5;
+	font-size: 20px;
+	font-weight: 600;
+	border-radius: 5px;
+}
+.left-btn button{
+    position: relative;
+} 
+.left-btn .search-bar-optin{
+    display: none;
+}
+.search-bar-optin{
+    width: 100%;
+    box-shadow: 0 5px 5px 0 #ddd;
+    position: absolute;
+    top:62px;
+    left: 0%;
+
+}
+.left-btn:hover .search-bar-optin{
+    display: block;
+
+}
+/* .search-bar-optin ul{
+
+} */
+.search-bar-optin ul li{
+    text-align: left;  
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+
+}
+.search-bar-optin ul li a{
+    
+    color: #222222;
+    text-transform: capitalize;
+    font-weight: 300;
+    cursor: pointer;
+}
+.search-bar-optin ul li a:hover{
+    color:#7BA9F7;
+}
+
+
+
+.mid-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+
+}
+.left-btn .mid-btn-cetagore{
+    background-color:#FFFFFF;
+    color: black;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    padding: 8px 15px;
+    line-height: 25px;
+    font-size: 12.8px;
+    height: 60px;
+
+}
+
+
+.input-search{
+    width: 350px;
+    padding: 20px;
+    text-transform: capitalize;
+    display: flex;
+    flex-grow: 1;
+    border: none;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    outline: none;
+}
+
+.s-icon i{
+    padding: 24px;
+    background-color: #FED700;
+    transition: all 0.5s;
+}
+.s-icon i:hover{
+    background-color: #83B735;
+}
+
+.line-bar1{
+    border: 1px solid #E7E7E7;
+    height: 40px;
+}
+
+
+
+
+.right-btn{
+    width: 359px;
+    text-align: center;
+    border: 2px solid #e7e7e7;
+    padding: 9px 0px;
+    transition: all .6s;
+}
+.right-btn h2{
+    text-transform: capitalize;
+    color:#0063D1;
+}
+.right-btn p{
+    color: #797979 ;
+    text-transform: capitalize;
+}
+.right-btn:hover{
+    background-color: #222222;
+}
+/* search-box  end*/
